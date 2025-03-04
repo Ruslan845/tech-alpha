@@ -31,20 +31,6 @@ To install and configure Tech Alpha, Follow the steps below:
 
 Download or clone `Client` &  `Server` both repo and run the following command in the terminal:
 
-1. Clone the `client` repository using
-
-```
-git clone https://github.com/masudranashawon/tech-alpha.git
-```
-
-2. Clone the `server` repository using
-
-```
-git clone https://github.com/masudranashawon/tech-alpha-server.git
-```
-
-3. Install the required dependencies in both the `client` and `server` directories by running
-
 ```
 npm install
 ```
@@ -57,12 +43,12 @@ npm i
 
 <br>
 
-4. Create a `.env` file in the root directory of `server` and add the following variables:
+Create a `.env` file in the root directory of `server` and add the following variables:
 
 - `MONGO_URI`=the MongoDB connection string
 
 
-5. Create a `.env` file in the root directory of `client` and add the following variable:
+Create a `.env` file in the root directory of `client` and add the following variable:
 
     - `REACT_APP_BASE_URL`=for example `http://localhost:3000`
 
@@ -79,12 +65,6 @@ npm start
 ```
 npm run dev
 ```
-
-## Links
-
-- [Live Demo](https://tech-alpha-masud.netlify.app)
-- [Front-End Repository](https://github.com/masudranashawon/tech-alpha)
-- [Back-End Repository](https://github.com/masudranashawon/tech-alpha-server)
 
 ## Contributing
 
